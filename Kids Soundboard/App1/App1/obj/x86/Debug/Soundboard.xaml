@@ -1,0 +1,961 @@
+﻿<Page
+    x:Class="App1.Soundboard"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!-- Pivot -->
+    <Pivot x:ConnectionId='1' x:Name ="pvtAnimals"  Title="SoundBoards">
+        <!-- Pivot for Animals List List -->
+        <PivotItem Header="Animals">
+
+            <Grid>
+
+                <Grid.Background>
+                    <ImageBrush ImageSource="Images/Animals/Jungle.jpg" 
+                        Stretch="UniformToFill" Opacity="0.3" />
+                </Grid.Background>
+
+                <StackPanel HorizontalAlignment="Left" Width="auto" Margin="10,0,0,0">
+                    <Button x:ConnectionId='236' x:Name="Sound" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="104" Width="125" Margin="0,0,0,0"                    >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Animals/bird.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='237' x:Name="textBox" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='253' Name="submitButton" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='254' x:Name="button" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                     />
+                            <Button x:ConnectionId='255' x:Name="button1" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                      />
+                        </StackPanel>
+                    </Grid>
+
+
+
+                    <Button x:ConnectionId='238' x:Name="Sound1" Height="104" Width="125" Margin="0,0,0,0"                     >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Animals/cat.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='239' x:Name="textBox1" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='250' Name="submitButton1" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='251' x:Name="button2" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0" Height="32"                      />
+                            <Button x:ConnectionId='252' x:Name="button3" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                      />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='240' x:Name="Sound2" Height="104" Width="125" Margin="0,0,0,0"                     >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Animals/cow.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='241' x:Name="textBox2" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='247' Name="submitButton2" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='248' x:Name="button4" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0" Height="32"                      />
+                            <Button x:ConnectionId='249' x:Name="button5" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                      />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='242' x:Name="Sound3" Height="104" Width="125" Margin="0,0,0,0"                     >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Animals/chicken.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+
+                    <TextBox x:ConnectionId='243' x:Name="textBox3" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='244' Name="submitButton3" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='245' x:Name="button6" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="70" Margin="0,0,0,0"                      />
+                            <Button x:ConnectionId='246' x:Name="button7" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                      />
+                        </StackPanel>
+                    </Grid>
+
+                </StackPanel>
+
+                <StackPanel HorizontalAlignment="Center" Width="auto" Margin="0,0,0,0">
+                    <Button x:ConnectionId='216' x:Name="Sound5" Height="104" Width="125" Margin="0,0,0,0"                     >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Animals/dolphin.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='217' x:Name="textBox4" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='233' Name="submitButton4" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='234' x:Name="button8" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                      />
+                            <Button x:ConnectionId='235' x:Name="button9" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                      />
+                        </StackPanel>
+                    </Grid>
+
+
+                    <Button x:ConnectionId='218' x:Name="Sound6" Height="104" Width="125" Margin="0,0,0,0"                     >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Animals/donkey.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='219' x:Name="textBox5" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='230' Name="submitButton5" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='231' x:Name="button10" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='232' x:Name="button11" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='220' x:Name="Sound7" Height="104" Width="125" Margin="0,0,0,0"                     >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Animals/duck.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+
+                    <TextBox x:ConnectionId='221' x:Name="textBox6" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='227' Name="submitButton6" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='228' x:Name="button12" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='229' x:Name="button13" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Bottom" Height="32"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='222' x:Name="Sound8" Height="104" Width="125" Margin="0,0,0,0"                     >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Animals/elephant.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='223' x:Name="textBox7" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='224' Name="submitButton7" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='225' x:Name="button14" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='226' x:Name="button15" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                </StackPanel>
+
+                <StackPanel HorizontalAlignment="Right" Width="auto" Margin="0,0,10,0">
+                    <Button x:ConnectionId='196' x:Name="Sound10" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Animals/horse.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='197' x:Name="textBox8" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='213' Name="submitButton8" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='214' x:Name="button16" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='215' x:Name="button17" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='198' x:Name="Sound11" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Animals/lion.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='199' x:Name="textBox9" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='210' Name="submitButton9" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='211' x:Name="button18" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='212' x:Name="button19" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='200' x:Name="Sound12" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Animals/monkey.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='201' x:Name="textBox10" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='207' Name="submitButton10" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='208' x:Name="button20" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='209' x:Name="button21" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='202' x:Name="Sound13" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Animals/rooster.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='203' x:Name="textBox11" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='204' Name="submitButton11" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='205' x:Name="button22" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='206' x:Name="button23" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                </StackPanel>
+
+                <Popup x:ConnectionId='194' x:Name="ppup1" IsOpen="False" IsLightDismissEnabled="True" Width="320" HorizontalAlignment="Left">
+                    <Popup.ChildTransitions>
+                        <TransitionCollection>
+                            <PaneThemeTransition Edge="Left" />
+                        </TransitionCollection>
+                    </Popup.ChildTransitions>
+                    <Grid Width="400" Height="{Binding ElementName=flyoutPane, Path=Height}"  Background="#FF58E764" >
+                        <TextBlock Height="50"  Text="Congrats, that is correct :)" />
+                    </Grid>
+                </Popup>
+
+                <Popup x:ConnectionId='195' x:Name="ppup2" IsOpen="False" IsLightDismissEnabled="True" Width="320" HorizontalAlignment="Right">
+                    <Popup.ChildTransitions>
+                        <TransitionCollection>
+                            <PaneThemeTransition Edge="Right" />
+                        </TransitionCollection>
+                    </Popup.ChildTransitions>
+                    <Grid Width="400" Height="{Binding ElementName=flyoutPane, Path=Height}"  Background="#FFE75858" >
+                        <TextBlock Height="50"  Text="I'm sorry, that is incorrect, please try again :)" />
+                    </Grid>
+                </Popup>
+
+            </Grid>
+        </PivotItem>
+
+        <!--End of Animals-->
+
+
+        <!-- Pivot for Sports List -->
+        <PivotItem x:ConnectionId='2' x:Name ="pvtSports" Header="Sports">
+
+            <Grid>
+
+                <Grid.Background>
+                    <ImageBrush ImageSource="Images/Sports/grass.jpg" 
+                        Stretch="UniformToFill" Opacity="0.3" />
+                </Grid.Background>
+
+                <StackPanel HorizontalAlignment="Left" Width="auto" Margin="10,0,0,0">
+                    <Button x:ConnectionId='174' x:Name="Sound14" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="104" Width="125" Margin="0,0,0,0"                        >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Sports/Baseball.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='175' x:Name="textBox12" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='191' Name="submitButton12" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='192' x:Name="button24" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='193' x:Name="button25" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+
+
+                    <Button x:ConnectionId='176' x:Name="Sound15" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Sports/basketball.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='177' x:Name="textBox15" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='188' Name="submitButton15" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='189' x:Name="button26" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0" Height="32"                       />
+                            <Button x:ConnectionId='190' x:Name="button27" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='178' x:Name="Sound16" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Sports/bowling.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='179' x:Name="textBox16" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='185' Name="submitButton16" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='186' x:Name="button28" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="70" Margin="0,0,0,0" Height="32"                       />
+                            <Button x:ConnectionId='187' x:Name="button29" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='180' x:Name="Sound17" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Sports/diving.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+
+                    <TextBox x:ConnectionId='181' x:Name="textBox17" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='182' Name="submitButton17" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='183' x:Name="button30" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='184' x:Name="button31" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                </StackPanel>
+
+                <StackPanel HorizontalAlignment="Center" Width="auto" Margin="0,0,0,0">
+                    <Button x:ConnectionId='154' x:Name="Sound18" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Sports/football.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='155' x:Name="textBox18" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='171' Name="submitButton18" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='172' x:Name="button32" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='173' x:Name="button33" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+
+                    <Button x:ConnectionId='156' x:Name="Sound19" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Sports/golf.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='157' x:Name="textBox19" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='168' Name="submitButton19" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='169' x:Name="button34" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='170' x:Name="button35" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='158' x:Name="Sound20" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Sports/pingpong.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+
+                    <TextBox x:ConnectionId='159' x:Name="textBox20" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='165' Name="submitButton20" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='166' x:Name="button36" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="70" Margin="0,0,0,0"                        Height="32"/>
+                            <Button x:ConnectionId='167' x:Name="button37" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Bottom" Height="32"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='160' x:Name="Sound21" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Sports/pool.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='161' x:Name="textBox21" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='162' Name="submitButton21" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='163' x:Name="button38" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='164' x:Name="button39" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                </StackPanel>
+
+                <StackPanel HorizontalAlignment="Right" Width="auto" Margin="0,0,10,0">
+                    <Button x:ConnectionId='134' x:Name="Sound22" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Sports/racingcar.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='135' x:Name="textBox22" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='151' Name="submitButton22" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='152' x:Name="button40" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0" Height="32"                       />
+                            <Button x:ConnectionId='153' x:Name="button41" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='136' x:Name="Sound23" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Sports/skiing.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='137' x:Name="textBox23" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='148' Name="submitButton23" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='149' x:Name="button42" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='150' x:Name="button43" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='138' x:Name="Sound24" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Sports/tennis-racket.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='139' x:Name="textBox24" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='145' Name="submitButton24" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='146' x:Name="button44" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='147' x:Name="button45" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='140' x:Name="Sound25" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Sports/boxing.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='141' x:Name="textBox25" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='142' Name="submitButton25" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='143' x:Name="button46" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='144' x:Name="button47" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                </StackPanel>
+
+                <!-- Popup if answer is correct-->
+                <Popup x:ConnectionId='132' x:Name="ppup3" IsOpen="False" IsLightDismissEnabled="True" Width="320" HorizontalAlignment="Left">
+                    <Popup.ChildTransitions>
+                        <TransitionCollection>
+                            <PaneThemeTransition Edge="Left" />
+                        </TransitionCollection>
+                    </Popup.ChildTransitions>
+                    <Grid Width="400" Height="{Binding ElementName=flyoutPane, Path=Height}"  Background="#FF58E764" >
+                        <TextBlock Height="50"  Text="Congrats, that is correct :)" />
+                    </Grid>
+                </Popup>
+
+                <!-- Popup if answer is incorrect-->
+                <Popup x:ConnectionId='133' x:Name="ppup4" IsOpen="False" IsLightDismissEnabled="True" Width="320" HorizontalAlignment="Right">
+                    <Popup.ChildTransitions>
+                        <TransitionCollection>
+                            <PaneThemeTransition Edge="Right" />
+                        </TransitionCollection>
+                    </Popup.ChildTransitions>
+                    <Grid Width="400" Height="{Binding ElementName=flyoutPane, Path=Height}"  Background="#FFE75858" >
+                        <TextBlock Height="50"  Text="I'm sorry, that is incorrect, please try again :)" />
+                    </Grid>
+                </Popup>
+
+            </Grid>
+
+
+        </PivotItem>
+
+        <!-- Pivot for Cartoons List -->
+        <PivotItem x:ConnectionId='3' x:Name ="pvtHousehold" Header="Household">
+
+            <Grid>
+
+                <Grid.Background>
+                    <ImageBrush ImageSource="Images/Household/household.jpg" 
+                        Stretch="UniformToFill" Opacity="0.3" />
+                </Grid.Background>
+
+                <StackPanel HorizontalAlignment="Left" Width="auto" Margin="10,0,0,0">
+                    <Button x:ConnectionId='112' x:Name="Sound26" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Household/aerosol can.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='113' x:Name="textBox26" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='129' Name="submitButton26" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='130' x:Name="button48" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="70" Margin="0,0,0,0"                        />
+                            <Button x:ConnectionId='131' x:Name="button49" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+
+
+                    <Button x:ConnectionId='114' x:Name="Sound27" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Household/bottle.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='115' x:Name="textBox27" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='126' Name="submitButton27" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='127' x:Name="button50" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='128' x:Name="button51" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='116' x:Name="Sound28" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Household/bubble.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='117' x:Name="textBox28" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='123' Name="submitButton28" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='124' x:Name="button52" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="70" Margin="0,0,0,0" Height="32"                       />
+                            <Button x:ConnectionId='125' x:Name="button53" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='118' x:Name="Sound29" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Household/sink.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+
+                    <TextBox x:ConnectionId='119' x:Name="textBox29" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='120' Name="submitButton29" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='121' x:Name="button54" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='122' x:Name="button55" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                </StackPanel>
+
+                <StackPanel HorizontalAlignment="Center" Width="auto" Margin="0,0,0,0">
+                    <Button x:ConnectionId='92' x:Name="Sound30" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Household/clock.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='93' x:Name="textBox30" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='109' Name="submitButton30" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='110' x:Name="button56" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='111' x:Name="button57" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Bottom"                       />
+                        </StackPanel>
+                    </Grid>
+
+
+                    <Button x:ConnectionId='94' x:Name="Sound31" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Household/door.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='95' x:Name="textBox31" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='106' Name="submitButton31" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='107' x:Name="button58" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='108' x:Name="button59" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Stretch"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='96' x:Name="Sound32" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Household/fan.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+
+                    <TextBox x:ConnectionId='97' x:Name="textBox32" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='103' Name="submitButton32" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='104' x:Name="button60" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0" Height="32"                       />
+                            <Button x:ConnectionId='105' x:Name="button61" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Bottom" Height="32"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='98' x:Name="Sound33" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Household/gate.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='99' x:Name="textBox33" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='100' Name="submitButton33" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='101' x:Name="button62" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='102' x:Name="button63" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                </StackPanel>
+
+                <StackPanel HorizontalAlignment="Right" Width="auto" Margin="0,0,10,0">
+                    <Button x:ConnectionId='72' x:Name="Sound34" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Household/hairdryer.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='73' x:Name="textBox34" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='89' Name="submitButton34" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='90' x:Name="button64" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0" Height="32"                       />
+                            <Button x:ConnectionId='91' x:Name="button65" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='74' x:Name="Sound35" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Household/lawn mower.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='75' x:Name="textBox35" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='86' Name="submitButton35" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='87' x:Name="button66" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='88' x:Name="button67" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='76' x:Name="Sound36" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Household/phone.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='77' x:Name="textBox36" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='83' Name="submitButton36" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='84' x:Name="button68" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='85' x:Name="button69" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='78' x:Name="Sound37" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Household/vacuum.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='79' x:Name="textBox37" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='80' Name="submitButton37" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='81' x:Name="button70" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='82' x:Name="button71" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                </StackPanel>
+
+                <!-- Popup if answer is correct-->
+                <Popup x:ConnectionId='70' x:Name="ppup7" IsOpen="False" IsLightDismissEnabled="True" Width="320" HorizontalAlignment="Left">
+                    <Popup.ChildTransitions>
+                        <TransitionCollection>
+                            <PaneThemeTransition Edge="Left" />
+                        </TransitionCollection>
+                    </Popup.ChildTransitions>
+                    <Grid Width="400" Height="{Binding ElementName=flyoutPane, Path=Height}"  Background="#FF58E764" >
+                        <TextBlock Height="50"  Text="Congrats, that is correct :)" />
+                    </Grid>
+                </Popup>
+
+                <!-- Popup if answer is incorrect-->
+                <Popup x:ConnectionId='71' x:Name="ppup8" IsOpen="False" IsLightDismissEnabled="True" Width="320" HorizontalAlignment="Right">
+                    <Popup.ChildTransitions>
+                        <TransitionCollection>
+                            <PaneThemeTransition Edge="Right" />
+                        </TransitionCollection>
+                    </Popup.ChildTransitions>
+                    <Grid Width="400" Height="{Binding ElementName=flyoutPane, Path=Height}"  Background="#FFE75858" >
+                        <TextBlock Height="50"  Text="I'm sorry, that is incorrect, please try again :)" />
+                    </Grid>
+                </Popup>
+
+            </Grid>
+
+
+        </PivotItem>
+
+        <!-- Pivot for Instruments List -->
+        <PivotItem x:ConnectionId='4' x:Name ="pvtInstruments" Header="Instrument">
+
+            <Grid>
+
+                <Grid.Background>
+                    <ImageBrush ImageSource="Images/background.jpg" 
+                        Stretch="UniformToFill" Opacity="0.3" />
+                </Grid.Background>
+
+                <StackPanel HorizontalAlignment="Left" Width="auto" Margin="10,0,0,0">
+                    <Button x:ConnectionId='50' x:Name="Sound38" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Instruments/banjo.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='51' x:Name="textBox38" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='67' Name="submitButton38" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='68' x:Name="button72" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="70" Margin="0,0,0,0"                        />
+                            <Button x:ConnectionId='69' x:Name="button73" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+
+
+                    <Button x:ConnectionId='52' x:Name="Sound39" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Instruments/bass.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='53' x:Name="textBox39" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='64' Name="submitButton39" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='65' x:Name="button74" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='66' x:Name="button75" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='54' x:Name="Sound40" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Instruments/didgeridoo.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='55' x:Name="textBox40" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='61' Name="submitButton40" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='62' x:Name="button76" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="70" Margin="0,0,0,0" Height="32"                       />
+                            <Button x:ConnectionId='63' x:Name="button77" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='56' x:Name="Sound41" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Instruments/drums.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+
+                    <TextBox x:ConnectionId='57' x:Name="textBox42" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='58' Name="submitButton42" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='59' x:Name="button78" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='60' x:Name="button79" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                </StackPanel>
+
+                <StackPanel HorizontalAlignment="Center" Width="auto" Margin="0,0,0,0">
+                    <Button x:ConnectionId='30' x:Name="Sound43" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Instruments/flute.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='31' x:Name="textBox43" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='47' Name="submitButton43" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='48' x:Name="button80" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='49' x:Name="button81" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Stretch"                       />
+                        </StackPanel>
+                    </Grid>
+
+
+                    <Button x:ConnectionId='32' x:Name="Sound44" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Instruments/guitar.jpeg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='33' x:Name="textBox44" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='44' Name="submitButton44" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='45' x:Name="button82" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='46' x:Name="button83" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Stretch"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='34' x:Name="Sound45" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Instruments/harmonica.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+
+                    <TextBox x:ConnectionId='35' x:Name="textBox45" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='41' Name="submitButton45" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='42' x:Name="button84" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0" Height="32"                       />
+                            <Button x:ConnectionId='43' x:Name="button85" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Bottom" Height="32"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='36' x:Name="Sound46" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Instruments/harp.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='37' x:Name="textBox47" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='38' Name="submitButton47" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='39' x:Name="button86" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='40' x:Name="button87" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Stretch"                       />
+                        </StackPanel>
+                    </Grid>
+
+                </StackPanel>
+
+                <StackPanel HorizontalAlignment="Right" Width="auto" Margin="0,0,10,0">
+                    <Button x:ConnectionId='10' x:Name="Sound47" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Instruments/piano.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='11' x:Name="textBoxx47" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='27' Name="submitButtonn47" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='28' x:Name="button88" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0" Height="32"                       />
+                            <Button x:ConnectionId='29' x:Name="button89" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='12' x:Name="Sound48" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Instruments/triangle.jpeg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='13' x:Name="textBox49" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='24' Name="submitButton49" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='25' x:Name="button90" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='26' x:Name="button91" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='14' x:Name="Sound50" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Instruments/sasxophone.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='15' x:Name="textBox50" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='21' Name="submitButton50" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='22' x:Name="button92" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='23' x:Name="button93" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                    <Button x:ConnectionId='16' x:Name="Sound51" Height="104" Width="125" Margin="0,0,0,0"                      >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="Images/Instruments/trumpet.jpg"/>
+                        </Button.Background>
+                    </Button>
+
+                    <TextBox x:ConnectionId='17' x:Name="textBox51" PlaceholderText="Enter Answer" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,0" Width="125" VerticalAlignment="Top"/>
+
+                    <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+                        <StackPanel x:ConnectionId='18' Name="submitButton51" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <Button x:ConnectionId='19' x:Name="button94" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="0,0,0,0"                       />
+                            <Button x:ConnectionId='20' x:Name="button95" Content="Clue" HorizontalAlignment="Left" Margin="0,0,0,0" Width="55" VerticalAlignment="Top"                       />
+                        </StackPanel>
+                    </Grid>
+
+                </StackPanel>
+
+                <!-- Popup if answer is correct-->
+                <Popup x:ConnectionId='8' x:Name="ppup5" IsOpen="False" IsLightDismissEnabled="True" Width="320" HorizontalAlignment="Left">
+                    <Popup.ChildTransitions>
+                        <TransitionCollection>
+                            <PaneThemeTransition Edge="Left" />
+                        </TransitionCollection>
+                    </Popup.ChildTransitions>
+                    <Grid Width="400" Height="{Binding ElementName=flyoutPane, Path=Height}"  Background="#FF58E764" >
+                        <TextBlock Height="50"  Text="Congrats, that is correct :)" />
+                    </Grid>
+                </Popup>
+
+                <!-- Popup if answer is incorrect-->
+                <Popup x:ConnectionId='9' x:Name="ppup6" IsOpen="False" IsLightDismissEnabled="True" Width="320" HorizontalAlignment="Right">
+                    <Popup.ChildTransitions>
+                        <TransitionCollection>
+                            <PaneThemeTransition Edge="Right" />
+                        </TransitionCollection>
+                    </Popup.ChildTransitions>
+                    <Grid Width="400" Height="{Binding ElementName=flyoutPane, Path=Height}"  Background="#FFE75858" >
+                        <TextBlock Height="50"  Text="I'm sorry, that is incorrect, please try again :)" />
+                    </Grid>
+                </Popup>
+
+            </Grid>
+        </PivotItem>
+
+        <!-- Pivot for Sign Out -->
+        <PivotItem x:ConnectionId='5' x:Name ="pvtBack" Header="Back">
+
+            <Grid>
+
+                <Grid.Background>
+                    <ImageBrush ImageSource="Images/background.jpg" 
+                        Stretch="UniformToFill" Opacity="0.3" />
+                </Grid.Background>
+                <StackPanel HorizontalAlignment="Center" Height="487" VerticalAlignment="Top" Width="218" Margin="96,51,94,0">
+                    <Button x:ConnectionId='6' x:Name="butto96" Content="Back to Home Page" HorizontalAlignment="Left" VerticalAlignment="Top" Height="74" Width="170" Margin="20,141,0,0" Background="Transparent"                       FontWeight="Bold"/>
+                    <Button x:ConnectionId='7' x:Name="button97" Content="Sign Out" HorizontalAlignment="Left" VerticalAlignment="Top" Height="74" Width="170" Margin="20,50,0,0"                        FontStyle="Italic" FontWeight="Bold" Background="Transparent"/>
+
+                </StackPanel>
+
+
+            </Grid>
+        </PivotItem>
+    </Pivot>
+</Page>
+

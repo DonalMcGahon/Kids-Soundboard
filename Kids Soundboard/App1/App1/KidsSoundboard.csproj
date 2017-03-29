@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{6C6BD9C7-1D6C-426F-9DEC-712DB0E54349}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>App1</RootNamespace>
+    <AssemblyName>App1</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>App1_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Content Include="Animals\bird.wav" />
+    <Content Include="Animals\cat_growl.wav" />
+    <Content Include="Animals\chicken.wav" />
+    <Content Include="Animals\cow3.wav" />
+    <Content Include="Animals\dog_bark.wav" />
+    <Content Include="Animals\dolphin.wav" />
+    <Content Include="Animals\donkey.wav" />
+    <Content Include="Animals\duck_quack.wav" />
+    <Content Include="Animals\elephant.wav" />
+    <Content Include="Animals\fly.wav" />
+    <Content Include="Animals\horse.wav" />
+    <Content Include="Animals\lion_roar.wav" />
+    <Content Include="Animals\monkey.wav" />
+    <Content Include="Animals\rooster.wav" />
+    <Content Include="Animals\sheep.wav" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\StoreLogo.scale-400.png" />
+    <Content Include="Household\aerosol+spray+shake.wav" />
+    <Content Include="Household\bottleopen2.wav" />
+    <Content Include="Household\Bubble5.wav" />
+    <Content Include="Household\can_drop.wav" />
+    <Content Include="Household\clock-tick2.wav" />
+    <Content Include="Household\doorcreaky.wav" />
+    <Content Include="Household\Drains.wav" />
+    <Content Include="Household\fan1.wav" />
+    <Content Include="Household\GATECLOS.wav" />
+    <Content Include="Household\Hairdryer1.wav" />
+    <Content Include="Household\lawn-mower-05.wav" />
+    <Content Include="Household\phone_cellular.wav" />
+    <Content Include="Household\Vacuum.wav" />
+    <Content Include="Images\Animals\bird.jpg" />
+    <Content Include="Images\Animals\cat.jpg" />
+    <Content Include="Images\Animals\chicken.jpg" />
+    <Content Include="Images\Animals\cow.jpg" />
+    <Content Include="Images\Animals\dog.jpg" />
+    <Content Include="Images\Animals\dolphin.jpg" />
+    <Content Include="Images\Animals\donkey.jpg" />
+    <Content Include="Images\Animals\duck.jpg" />
+    <Content Include="Images\Animals\elephant.jpg" />
+    <Content Include="Images\Animals\fly.jpg" />
+    <Content Include="Images\Animals\horse.jpg" />
+    <Content Include="Images\Animals\Jungle.jpg" />
+    <Content Include="Images\Animals\lion.jpg" />
+    <Content Include="Images\Animals\monkey.jpg" />
+    <Content Include="Images\Animals\rooster.jpg" />
+    <Content Include="Images\Animals\sheep.jpg" />
+    <Content Include="Images\background.jpg" />
+    <Content Include="Images\begin.jpg" />
+    <Content Include="Images\Household\aerosol can.jpg" />
+    <Content Include="Images\Household\bottle.jpg" />
+    <Content Include="Images\Household\bubble.jpg" />
+    <Content Include="Images\Household\can.jpg" />
+    <Content Include="Images\Household\clock.jpg" />
+    <Content Include="Images\Household\door.jpg" />
+    <Content Include="Images\Household\fan.jpg" />
+    <Content Include="Images\Household\gate.jpg" />
+    <Content Include="Images\Household\hairdryer.jpg" />
+    <Content Include="Images\Household\household.jpg" />
+    <Content Include="Images\Household\lawn mower.jpg" />
+    <Content Include="Images\Household\phone.jpg" />
+    <Content Include="Images\Household\sink.jpg" />
+    <Content Include="Images\Household\vacuum.jpg" />
+    <Content Include="Images\Instruments\banjo.jpg" />
+    <Content Include="Images\Instruments\bass.jpg" />
+    <Content Include="Images\Instruments\didgeridoo.jpg" />
+    <Content Include="Images\Instruments\drums.jpg" />
+    <Content Include="Images\Instruments\flute.jpg" />
+    <Content Include="Images\Instruments\guitar.jpeg" />
+    <Content Include="Images\Instruments\harmonica.jpg" />
+    <Content Include="Images\Instruments\harp.jpg" />
+    <Content Include="Images\Instruments\piano.jpg" />
+    <Content Include="Images\Instruments\sasxophone.jpg" />
+    <Content Include="Images\Instruments\triangle.jpeg" />
+    <Content Include="Images\Instruments\trumpet.jpg" />
+    <Content Include="Images\Sports\Baseball.jpg" />
+    <Content Include="Images\Sports\basketball.jpg" />
+    <Content Include="Images\Sports\bowling.jpg" />
+    <Content Include="Images\Sports\boxing.jpg" />
+    <Content Include="Images\Sports\diving.jpg" />
+    <Content Include="Images\Sports\football.jpg" />
+    <Content Include="Images\Sports\golf.jpg" />
+    <Content Include="Images\Sports\grass.jpg" />
+    <Content Include="Images\Sports\pingpong.jpg" />
+    <Content Include="Images\Sports\pool.jpg" />
+    <Content Include="Images\Sports\racingcar.jpg" />
+    <Content Include="Images\Sports\skiing.jpg" />
+    <Content Include="Images\Sports\tennis-racket.jpg" />
+    <Content Include="Instrument\BANJO.mp3" />
+    <Content Include="Instrument\Bass.wav" />
+    <Content Include="Instrument\didgeridoo.wav" />
+    <Content Include="Instrument\drums.wav" />
+    <Content Include="Instrument\flute.wav" />
+    <Content Include="Instrument\Grand Piano.wav" />
+    <Content Include="Instrument\Guitar.wav" />
+    <Content Include="Instrument\harmonica.wav" />
+    <Content Include="Instrument\Harp.mp3" />
+    <Content Include="Instrument\saxophone.wav" />
+    <Content Include="Instrument\triangle.wav" />
+    <Content Include="Instrument\trumpet.mp3" />
+    <Content Include="Splash Screen Assests\begin-min-620-min.png" />
+    <Content Include="Splash Screen Assests\begin-min.png" />
+    <Content Include="Splash Screen Assests\LockScreenLogo.scale-1240.png" />
+    <Content Include="Splash Screen Assests\LockScreenLogo.scale-176.png" />
+    <Content Include="Splash Screen Assests\LockScreenLogo.scale-620.png" />
+    <Content Include="Splash Screen Assests\scaled asset 1240-min.scale-200.png" />
+    <Content Include="Splash Screen Assests\scaled asset 1240-min.scale-400.png" />
+    <Content Include="Splash Screen Assests\scaled asset 1240.png" />
+    <Content Include="Splash Screen Assests\scaled asset 284.png" />
+    <Content Include="Splash Screen Assests\scaled asset 300.png" />
+    <Content Include="Splash Screen Assests\storelogo-200.png" />
+    <Content Include="Sports\Ball+Hit+Cheer.wav" />
+    <Content Include="Sports\Billiards+3.wav" />
+    <Content Include="Sports\BOUNCE+1.wav" />
+    <Content Include="Sports\bowling3.wav" />
+    <Content Include="Sports\Boxing_Bell.mp3" />
+    <Content Include="Sports\car+race.wav" />
+    <Content Include="Sports\diving.wav" />
+    <Content Include="Sports\FOOTBALLKICK.wav" />
+    <Content Include="Sports\golfball.wav" />
+    <Content Include="Sports\pingpong.wav" />
+    <Content Include="Sports\SNOWSK-1.wav" />
+    <Content Include="Sports\tennisserve.wav" />
+    <None Include="project.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Databases\Login.cs" />
+    <Compile Include="Databases\User.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.xaml.cs">
+      <DependentUpon>Register.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Soundboard.xaml.cs">
+      <DependentUpon>Soundboard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomePage.xaml.cs">
+      <DependentUpon>WelcomePage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="App1_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Register.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Soundboard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WelcomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.VCLibs, Version=14.0">
+      <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
+    </SDKReference>
+    <SDKReference Include="SQLite.UWP.2015, Version=3.16.2">
+      <Name>SQLite for Universal Windows Platform</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
