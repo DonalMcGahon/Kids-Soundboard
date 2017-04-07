@@ -30,3 +30,6 @@ and at least one other sensor or service available on the devices. These include
 + When attempting to submit my app to the Windows Store, the response I got was that my log in button was not appearing, even though it was appearing for me and was working perfectly. I decided since they take so long to do the Certification process that it would be better if I got rid of the log in and register process of my app in an attempt to just get my app onto the store in time for the dealine date. Below is the response I got the first time I tried to Submit to the store.
 
 ![kids soundboard - review results](https://cloud.githubusercontent.com/assets/14197773/24708518/fbd2b8c6-1a0e-11e7-8887-e2b3dd39bb5e.png)
+
+#### Update
++ I am still waiting for my app to be certified. I submited my app on the 03/04/2017 and it is still in the certification process.
